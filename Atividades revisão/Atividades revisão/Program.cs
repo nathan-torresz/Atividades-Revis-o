@@ -35,7 +35,7 @@ namespace Atividades_revisão
                 default:
                     Console.WriteLine("Erro!");
                     break;
-            }*/
+            }
 
             Random numAleatorio = new Random();
             int a = numAleatorio.Next(1, 11);
@@ -77,7 +77,9 @@ namespace Atividades_revisão
                         Console.WriteLine("Erro tente novamente");
                     }
                 } while (resp < (a - b) || resp > (a - b));
-            }
+            }*/
+
+
         }
     }
 }
